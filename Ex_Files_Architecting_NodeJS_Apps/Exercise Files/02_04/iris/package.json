@@ -1,0 +1,24 @@
+{
+  "name": "iris",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/service.js",
+  "scripts": {
+    "test": "nyc mocha --recursive test",
+    "start": "node bin/run"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/client": "^3.6.0",
+    "dotenv": "^4.0.0",
+    "express": "^4.14.0",
+    "superagent": "^2.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0",
+    "nyc": "^10.1.2",
+    "should": "^11.2.0",
+    "supertest": "^3.0.0"
+  }
+}
